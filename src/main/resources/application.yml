@@ -1,0 +1,20 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/
+    username:
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  sql:
+    init:
+      mode: always
+
+jwt:
+  SECRET_KEY: "5dgK9vlRvkhfPLm79SDh92B6PbnjG6k3kfzKa2NF313adslfwndykeajh8u3afsd"

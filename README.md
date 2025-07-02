@@ -32,8 +32,8 @@ spring:
 
 ## 🔐 Authentication & Authorization
 
-- Register a user via `POST /api/v1/auth/register`
-- Login using `POST /api/v1/auth/login` to receive a JWT token
+- Register a user via `POST /api/auth/register`
+- Login using `POST /api/auth/login` to receive a JWT token
 - Use this token with all secured routes:
   ```
   Authorization: Bearer <your_token>

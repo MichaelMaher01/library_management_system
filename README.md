@@ -63,7 +63,7 @@ spring:
 - **Users**: system accounts with roles  
 - **BorrowingTransactions**: borrow/return log
 
-🖼 View full diagram in `edr/` folder.
+ View full diagram in `edr/` folder.
 
 ---
 

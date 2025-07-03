@@ -1,12 +1,12 @@
 
-# 📚 Library Management System
+#  Library Management System
 
 A modern, secure **Library Management System** built with **Java**, **Spring Boot**, and **PostgreSQL**.  
 Provides a robust **JWT-based REST API** for managing books, authors, users, and borrowing operations with **role-based access control**.
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 Edit `application.yml` to connect to your local PostgreSQL instance:
 
@@ -18,19 +18,19 @@ spring:
     password:
 ```
 
-> ⚠️ Replace `url`, `username`, and `password` with your actual DB credentials.  
-> 🧪 On startup, the app will auto-run `data.sql` to insert sample records.
+>  Replace `url`, `username`, and `password` with your actual DB credentials.  
+>  On startup, the app will auto-run `data.sql` to insert sample records.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 - `postman/` – Postman collection to test API endpoints  
 - `edr/` – Entity-Relationship Diagram image of the database schema  
 
 ---
 
-## 🔐 Authentication & Authorization
+##  Authentication & Authorization
 
 - Register a user via `POST /api/auth/register`
 - Login using `POST /api/auth/login` to receive a JWT token
@@ -41,20 +41,20 @@ spring:
 
 ---
 
-## ✅ Key Features
+##  Key Features
 
-- 🔐 **JWT Authentication**  
-- 👥 **Role-Based Access** (`ADMIN`, `LIBRARIAN`, `STAFF`)  
-- 📚 Book & Category Management  
-- 👤 Member Management  
-- 🔁 Borrow & Return Book Transactions  
-- 📖 Borrowing History Tracking  
-- 🛠 PostgreSQL Integration with initial `data.sql`  
-- 📄 Well-structured and modular API design
+-  **JWT Authentication**  
+-  **Role-Based Access** (`ADMIN`, `LIBRARIAN`, `STAFF`)  
+-  Book & Category Management  
+-  Member Management  
+-  Borrow & Return Book Transactions  
+-  Borrowing History Tracking  
+-  PostgreSQL Integration with initial `data.sql`  
+-  Well-structured and modular API design
 
 ---
 
-## 🧾 Entity Overview
+##  Entity Overview
 
 - **Books**: title, summary, language, ISBN, etc.  
 - **Authors** & **Publishers**  
@@ -67,7 +67,7 @@ spring:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -75,7 +75,7 @@ spring:
 - Maven
 - PostgreSQL
 
-### 🧰 Setup Instructions
+###  Setup Instructions
 
 1. Create a PostgreSQL database and user
 2. Configure `application.yml` as shown:
@@ -104,7 +104,7 @@ java -jar target/library-management-system.jar
 
 ---
 
-## 🧪 API Testing with Postman
+##  API Testing with Postman
 
 1. Open Postman
 2. Import the collection from `postman/`

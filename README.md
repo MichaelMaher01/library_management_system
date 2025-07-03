@@ -117,7 +117,7 @@ java -jar target/library-management-system.jar
 
 ---
 
-## 🗺 ERD (Database Diagram)
+##  ERD (Database Diagram)
 
 Find the full database structure in `edr/` folder.  
 It includes all entities and their relationships visually.
